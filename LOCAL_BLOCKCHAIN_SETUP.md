@@ -66,14 +66,15 @@ Contract address: 0x5FbDB2315678afecb367f032d93F642f64180aa3
 Edit `.env.local`:
 
 ```env
-DATABASE_URL=postgresql://neondb_owner:npg_6M3jNgbovQLt@ep-nameless-bonus-aizzyrvl-pooler.c-4.us-east-1.aws.neon.tech/neondb?sslmode=require
-JWT_SECRET=f7K9xP2Qm8Rz4Lw1Tg6HcV3Jb5Nq0DsA
+DATABASE_URL=your_postgresql_connection_string_here
+JWT_SECRET=your_random_secret_here
 
 # Local Blockchain (FREE - No money needed)
 ETHEREUM_RPC_URL=http://127.0.0.1:8545
 PRIVATE_KEY=ac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
 CONTRACT_ADDRESS=0x5FbDB2315678afecb367f032d93F642f64180aa3
 CHAIN_ID=31337
+MASTER_ENCRYPTION_KEY=your_64_char_hex_key_here
 ```
 
 ### Step 5: Start Application
